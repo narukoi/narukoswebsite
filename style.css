@@ -1,0 +1,90 @@
+
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background-color: sandybrown;
+  opacity:inherit;
+  color: white;
+  font-size: 25px;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: center;
+  background-color: sandybrown;
+  overflow: hidden;
+  padding: 15px
+}
+
+.section a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.25em
+}
+
+.footer {
+  padding: 30px;
+  text-align:center;
+  background-color: sandybrown;
+  color: white;
+  font-size: 13px;
+  position: relative;
+  clear: both;
+}
+
+.profilepic {
+  width: 400px;
+  height: auto;
+}
+
+.side1 {
+  flex: 1;
+  padding: 0.1em;
+}
+
+.side2 {
+  text-align: left;
+}
+
+#section_left {
+  float: left;
+  width: 300px;
+  padding: 50px;
+  margin-section_left: 100px;
+
+}
+#section_right {
+  float: right;
+  width: 600px;
+  margin-right: 30px;
+  padding: 50px;
+
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+
+}
+
+.fa-youtube {
+  background-color: black;
+  color: white;
+}
+.fa-linkedin {
+  background-color: black;
+  color: white;
+}
+.fa-facebook {
+  background-color: black;
+  color: white;
+  height: auto;
+  width: 13px;
+}

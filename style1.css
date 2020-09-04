@@ -1,0 +1,102 @@
+.header {
+  padding: 30px;
+  text-align: center;
+  background-color: sandybrown;
+  color: white;
+  font-size: 25px;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  postition: relative;
+  background-color: sandybrown;
+  overflow: hidden;
+  padding: 15px;
+  margin-bottom: 70px;
+}
+
+.section a {
+  color: linen;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.25em
+}
+
+#item {
+  background-color: linen;
+}
+
+#item ul:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+#item ul li {
+  display: block;
+  float: left;
+  height: 300px;
+  width: 32%;
+  list-style-type: none;
+  text-align: center;
+}
+
+#item ul li:nth-child(3n-1) {
+  margin: 0 2%;
+}
+
+#item1 {
+  background-color: linen;
+}
+
+#item1 ul:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+#item1 ul li {
+  display: block;
+  float: left;
+  height: -300px;
+  width: 32%;
+  list-style-type: none;
+  text-align: center;
+}
+
+#item1 ul li:nth-child(3n-1) {
+  margin: 0 2%;
+}
+
+.footer {
+  padding: 30px;
+  text-align:center;
+  background-color: sandybrown;
+  color: white;
+  font-size: 13px;
+  position: relative;
+  clear: both;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa-youtube {
+  background-color: black;
+  color: white;
+}
+.fa-linkedin {
+  background-color: black;
+  color: white;
+}
+.fa-facebook {
+  background-color: black;
+  color: white;
+  height: auto;
+  width: 13px;
+}
